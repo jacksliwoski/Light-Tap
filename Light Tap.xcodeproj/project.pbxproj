@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		1FBDC62A2CB771590028AD77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FBDC6112CB771570028AD77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FBDC6182CB771570028AD77;
-			remoteInfo = "Light Tap Watch App";
-		};
-		1FBDC6342CB771590028AD77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1FBDC6112CB771570028AD77 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1FBDC6182CB771570028AD77;
-			remoteInfo = "Light Tap Watch App";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1FBDC6192CB771570028AD77 /* Light Tap Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light Tap Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FBDC6292CB771590028AD77 /* Light Tap Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light Tap Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FBDC6332CB771590028AD77 /* Light Tap Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Light Tap Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -55,20 +36,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FBDC6262CB771590028AD77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FBDC6302CB771590028AD77 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				1FBDC6192CB771570028AD77 /* Light Tap Watch App.app */,
-				1FBDC6292CB771590028AD77 /* Light Tap Watch AppTests.xctest */,
-				1FBDC6332CB771590028AD77 /* Light Tap Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +82,6 @@
 			productReference = 1FBDC6192CB771570028AD77 /* Light Tap Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1FBDC6282CB771590028AD77 /* Light Tap Watch AppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FBDC6402CB771590028AD77 /* Build configuration list for PBXNativeTarget "Light Tap Watch AppTests" */;
-			buildPhases = (
-				1FBDC6252CB771590028AD77 /* Sources */,
-				1FBDC6262CB771590028AD77 /* Frameworks */,
-				1FBDC6272CB771590028AD77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FBDC62B2CB771590028AD77 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1FBDC62C2CB771590028AD77 /* Light Tap Watch AppTests */,
-			);
-			name = "Light Tap Watch AppTests";
-			packageProductDependencies = (
-			);
-			productName = "Light Tap Watch AppTests";
-			productReference = 1FBDC6292CB771590028AD77 /* Light Tap Watch AppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1FBDC6322CB771590028AD77 /* Light Tap Watch AppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1FBDC6432CB771590028AD77 /* Build configuration list for PBXNativeTarget "Light Tap Watch AppUITests" */;
-			buildPhases = (
-				1FBDC62F2CB771590028AD77 /* Sources */,
-				1FBDC6302CB771590028AD77 /* Frameworks */,
-				1FBDC6312CB771590028AD77 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1FBDC6352CB771590028AD77 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				1FBDC6362CB771590028AD77 /* Light Tap Watch AppUITests */,
-			);
-			name = "Light Tap Watch AppUITests";
-			packageProductDependencies = (
-			);
-			productName = "Light Tap Watch AppUITests";
-			productReference = 1FBDC6332CB771590028AD77 /* Light Tap Watch AppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +94,6 @@
 				TargetAttributes = {
 					1FBDC6182CB771570028AD77 = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					1FBDC6282CB771590028AD77 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 1FBDC6182CB771570028AD77;
-					};
-					1FBDC6322CB771590028AD77 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 1FBDC6182CB771570028AD77;
 					};
 				};
 			};
@@ -201,28 +112,12 @@
 			projectRoot = "";
 			targets = (
 				1FBDC6182CB771570028AD77 /* Light Tap Watch App */,
-				1FBDC6282CB771590028AD77 /* Light Tap Watch AppTests */,
-				1FBDC6322CB771590028AD77 /* Light Tap Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1FBDC6172CB771570028AD77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FBDC6272CB771590028AD77 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FBDC6312CB771590028AD77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +134,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1FBDC6252CB771590028AD77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1FBDC62F2CB771590028AD77 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1FBDC62B2CB771590028AD77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FBDC6182CB771570028AD77 /* Light Tap Watch App */;
-			targetProxy = 1FBDC62A2CB771590028AD77 /* PBXContainerItemProxy */;
-		};
-		1FBDC6352CB771590028AD77 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1FBDC6182CB771570028AD77 /* Light Tap Watch App */;
-			targetProxy = 1FBDC6342CB771590028AD77 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1FBDC63B2CB771590028AD77 /* Debug */ = {
@@ -327,6 +195,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -380,6 +249,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -397,19 +267,19 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Light Tap";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = SONO.LightTap.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -427,12 +297,13 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Light Tap";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = .watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = SONO.LightTap.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -440,87 +311,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Release;
-		};
-		1FBDC6412CB771590028AD77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCACHY36L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SONO.Light-Tap-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Tap Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light Tap Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
-		};
-		1FBDC6422CB771590028AD77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCACHY36L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SONO.Light-Tap-Watch-AppTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Light Tap Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Light Tap Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Release;
-		};
-		1FBDC6442CB771590028AD77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCACHY36L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SONO.Light-Tap-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Light Tap Watch App";
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
-		};
-		1FBDC6452CB771590028AD77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4XCACHY36L;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SONO.Light-Tap-Watch-AppUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				TEST_TARGET_NAME = "Light Tap Watch App";
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -541,24 +331,6 @@
 			buildConfigurations = (
 				1FBDC63E2CB771590028AD77 /* Debug */,
 				1FBDC63F2CB771590028AD77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FBDC6402CB771590028AD77 /* Build configuration list for PBXNativeTarget "Light Tap Watch AppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FBDC6412CB771590028AD77 /* Debug */,
-				1FBDC6422CB771590028AD77 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1FBDC6432CB771590028AD77 /* Build configuration list for PBXNativeTarget "Light Tap Watch AppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1FBDC6442CB771590028AD77 /* Debug */,
-				1FBDC6452CB771590028AD77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
